@@ -1,0 +1,19 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* estilos del boton */
+.boton{
+    background: rgb(74, 101, 177);
+    color: rgb(8, 8, 8); /* color de la letra del boton*/
+    padding: 1em;
+    font-size: large;
+}
+
+/* creamos un clase cambio color */
+.cambioColor{
+    background: rgb(224, 226, 231);
+    color: rgb(8, 8, 8); /* color de la letra del boton*/
+    padding: 1em;
+    font-size: large;
+
+}

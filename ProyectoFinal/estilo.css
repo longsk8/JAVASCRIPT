@@ -1,0 +1,36 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+/* estilo y diseño del header */
+header{
+    height: 80px;
+    background-color: rgb(233, 224, 224);
+    padding: 0  40px;
+    color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+/*logo tamaño, color*/
+.logo {
+    color: black;
+    font-weight: bold;
+    padding-right: 40px;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.div{
+background-color: rgb(129, 129, 172);
+padding: 5%;
+margin: 3%;
+}

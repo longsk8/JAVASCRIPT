@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+/* diseño body */
+body{
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* creamos la clase cuadro */
+.cuadro{
+    background: rgb(34, 33, 33);
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    transition: 2s ease;
+}
+.cuadro:hover{
+    transition-duration: 0s;
+}
